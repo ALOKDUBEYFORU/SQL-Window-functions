@@ -12,6 +12,8 @@ Select *,sum(claim) over(partition by patientid order by claim desc) claim_sum
 from training.Insurance_data
 order by claim_sum desc limit 5;
 
+[![Output image1](URL_to_image "Output to image1")](https://github.com/ALOKDUBEYFORU/SQL-Window-functions/blob/main/Image/Img1.png)
+  
 '''
 ### **Problem 2:** What is the average insurance claimed by patients based on the number of children they have?
 '''
