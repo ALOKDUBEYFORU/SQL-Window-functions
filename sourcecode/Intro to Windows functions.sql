@@ -1,3 +1,4 @@
+#This is an introduction to windows functions in sql
 
 #To display all the records of the insurance_data table
 
